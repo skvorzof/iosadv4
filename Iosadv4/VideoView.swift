@@ -14,7 +14,7 @@ struct VideoView: View {
         }
         .tabItem{
             Image(systemName: "video.fill")
-            Text("Видео")
+            Text("Видео").font(.largeTitle)
         }
     }
 }

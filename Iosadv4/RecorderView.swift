@@ -14,7 +14,7 @@ struct RecorderView: View {
         }
         .tabItem{
             Image(systemName: "mic.fill")
-            Text("Запись")
+            Text("Запись").font(.largeTitle)
         }
     }
 }

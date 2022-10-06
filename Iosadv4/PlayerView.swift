@@ -14,7 +14,7 @@ struct PlayerView: View {
         }
         .tabItem{
             Image(systemName: "music.note")
-            Text("Музыка")
+            Text("Музыка").font(.largeTitle)
         }
     }
 }
